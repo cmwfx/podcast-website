@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navbar goes here -->
+    <nav class="bg-Champagne h-screen overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+
+                <div class="flex space-x-4">
+                    <!-- logo -->
+                    <div>
+                        <a href="#" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
+                            <img class="h-[74px] w-[74px] mr-1" src="./img/logo.png" alt="website logo">
+
+                        </a>
+                    </div>
+
+                    <!-- primary nav -->
+                    <div class="hidden md:flex items-center space-x-1">
+                        <a href="#" class="py-5 px-3 font-monalt customhover">Episodes</a>
+                        <a href="#" class="py-5 px-3 font-monalt customhover">About</a>
+                        <a href="#" class="py-5 px-3 font-monalt customhover">More</a>
+                    </div>
+                </div>
+
+                <!-- secondary nav -->
+                <div class="hidden md:flex items-center space-x-1 font-monalt">
+                    <a href=""
+                        class=" mr-[20px] py-[12px] px-[24px] text-[14px] border-2 border-black rounded-lg border-solid hover:bg-davysgrey hover:text-white hover:border-none transition duration-500 hover:scale-75">RECENT
+                        EPISODES
+                    </a>
+                    <a href=""
+                        class="py-[12px] px-[24px] font-monalt bg-black hover:bg-davysgrey text-white rounded transition duration-300 hover:scale-75">SUBSCRIBE</a>
+                </div>
+
+                <!-- mobile button goes here -->
+                <div class="md:hidden flex items-center">
+                    <a href=""
+                        class="py-[6px] px-[12px] mr-5 font-monalt bg-black hover:bg-davysgrey text-white rounded transition duration-300 hover:scale-75">SUBSCRIBE</a>
+                    <button class="mobile-menu-button">
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="mobile-menu hidden md:hidden">
+            <a href="#" class="block py-2 px-4 text-sm text-center font-monalt hover:bg-gray-200">RECENT EPISODES</a>
+            <a href="#" class="block py-2 px-4 text-sm text-center font-monalt hover:bg-gray-200">Episodes</a>
+            <a href="#" class="block py-2 px-4 text-sm text-center font-monalt hover:bg-gray-200">About</a>
+            <a href="#" class="block py-2 px-4 text-sm text-center font-monalt hover:bg-gray-200">More</a>
+
+        </div>
+        <!-- intro items  -->
+        <div>
+            <Section class="flex content-center items-center justify-between mr-[4vw]">
+                <img class="w-[59px] h-[154px] md:w-[129px] md:h-[312px] lg:w-[300px] lg:h-[500px]"
+                    src="./img/Hero Shape Swirl.png" alt="swirl">
+                <div>
+                    <h2 class="font-monalt font-bold text-[4rem] md:text-8xl text-center">your Daily</h2>
+                    <h2 class="font-monalt font-bold text-[4rem] md:text-8xl text-Vermillion text-center">podcast</h2>
+                    <p class="text-center font-monalt font-medium pt-4 md:pt-12">We cover all kinds of categories and
+                    </p>
+                    <p class="text-center font-monalt font-medium pb-12">a weekly special guest.</p>
+                    <div class="flex flex-col items-center">
+                        <a href=""
+                            class="py-[12px] px-[24px] font-monalt bg-black hover:bg-davysgrey text-white rounded transition duration-300 hover:scale-75">SUBSCRIBE</a>
+                    </div>
+                </div>
+                <img class="w-[51px] h-[61] md:w-[155.3px] md:h-[216.08px] " src="./img/Hero Shape Stars.png"
+                    alt="star">
+            </Section>
+        </div>
+    </nav>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

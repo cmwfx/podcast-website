@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.customhover {
+		background: linear-gradient(to right, rgb(77, 77, 77), rgb(77, 77, 77)),
+			linear-gradient(
+				to right,
+				rgb(199, 210, 254),
+				rgb(254, 202, 202),
+				rgb(254, 249, 195)
+			);
+		background-size: 50% 3px, 0 3px;
+		background-position: 50% 70%, 0 100%;
+		background-repeat: no-repeat;
+		transition: background-size 400ms;
+	}
+	.customhover:hover {
+		background-size: 0 3px, 100% 3px;
+	}
+}
