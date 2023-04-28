@@ -13,7 +13,7 @@
 
 <body>
     <!-- navbar goes here -->
-    <nav class="bg-Champagne h-screen overflow-hidden">
+    <main class="bg-Champagne overflow-hidden">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between">
 
@@ -71,7 +71,7 @@
         <!-- intro items  -->
         <div>
             <Section class="flex content-center items-center justify-between mr-[4vw]">
-                <img class="w-[59px] h-[154px] md:w-[129px] md:h-[312px] lg:w-[300px] lg:h-[500px]"
+                <img class="w-[59px] h-[154px] md:w-[129px] md:h-[312px] lg:w-[260px] lg:h-[492px]"
                     src="./img/Hero Shape Swirl.png" alt="swirl">
                 <div>
                     <h2 class="font-monalt font-bold text-[4rem] md:text-8xl text-center">your Daily</h2>
@@ -88,8 +88,105 @@
                     alt="star">
             </Section>
         </div>
-    </nav>
 
+        <!-- podcast cover section  -->
+        <div class="flex flex-col bg-Champagne mt-12 p-auto">
+            <div class="flex overflow-x-scroll pb-10 hide-scroll-bar">
+                <div class="flex flex-nowrap lg:ml-3 md:ml-2 ml-1 ">
+                    <div class="inline-block px-3">
+                        <div
+                            class="w-[284px] md:w-[373px] h-[373px] max-w-[373px] overflow-hidden rounded-xl transition-shadow duration-300 ease-in-out">
+                            <a href="#"><img src="./img/tesla autopilot.png" alt="tesla autopilot podcast cover"></a>
+                        </div>
+                    </div>
+                    <div class="inline-block px-3">
+                        <div
+                            class="w-[284px] md:w-[373px] h-[373px] max-w-[373px] overflow-hidden rounded-xl transition-shadow duration-300 ease-in-out">
+                            <a href="#"><img src="./img/self confidence.png" alt="self confidence podcast cover"></a>
+                        </div>
+                    </div>
+                    <div class="inline-block px-3">
+                        <div
+                            class="w-[284px] md:w-[373px] h-[373px] max-w-[373px] overflow-hidden rounded-xl transition-shadow duration-300 ease-in-out">
+                            <a href="#"><img src="./img/perplexed mind.png" alt="perplexed mind podcast cover"></a>
+                        </div>
+                    </div>
+                    <div class="inline-block px-3">
+                        <div
+                            class="w-[284px] md:w-[373px] h-[373px] max-w-[373px] overflow-hidden rounded-xl transition-shadow duration-300 ease-in-out">
+                            <a href="#"><img src="./img/women rights.png" alt="women rights podcast cover"></a>
+                        </div>
+                    </div>
+                    <div class="inline-block px-3">
+                        <div
+                            class="w-[284px] md:w-[373px] h-[373px] max-w-[373px] overflow-hidden rounded-xl transition-shadow duration-300 ease-in-out">
+                            <a href="#"><img src="./img/social class.png" alt="self confidence podcast cover"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .hide-scroll-bar {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+
+            .hide-scroll-bar::-webkit-scrollbar {
+                display: none;
+            }
+        </style>
+        <!-- sponsored by  -->
+        <section
+            class="flex flex-col md:flex-row items-center max-w-6xl mx-auto px-4 md:justify-around border-black py-5 -mt-20 md:mt-12 mb-28 border-y-[1.5px]">
+            <p class="font-monalt font-bold text-[19px] md:text-[22.65px]">Supported by:</p>
+            <div class="max-w-[275px] max-h-[84px] py-2 md:py-0">
+                <img src="./img/Spotify.png" alt="Spotify logo">
+            </div>
+            <div class="max-w-[275px] max-h-[84px] py-2 md:py-0">
+                <img src="./img/Google Podcast.png" alt="Google podcast logo">
+            </div>
+            <div class="max-w-[275px] max-h-[84px] py-2 md:py-0">
+                <img src="./img/Youtube.png" alt="youtube logo">
+            </div>
+        </section>
+
+
+    </main>
+    <div class="flex items-center content-center">
+        <img class="relative bottom-20 left-[50%] max-w-[100vw]" src="./img/Scribble.png" alt="Scribble">
+    </div>
+    <div class="flex items-center flex-col bg-white pt-12">
+        <div class="font-monalt font-bold text-[59.3px]">Talk. Listen. Get inspired</div>
+        <div class="font-monalt font-bold text-[59.3px]">by every minute of it.</div>
+    </div>
+    <div class="flex flex-row max-w-6xl mx-auto justify-between py-12 bg-white">
+        <div class="flex flex-wrap max-w-[472px] max-h-[367px] justify-center">
+            <img src="./img/head question.png" alt="head question illustration">
+            <p class="text-center  font-monalt font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur ac ultrices
+                odio. </p>
+        </div>
+        <div class="flex flex-wrap max-w-[472px] max-h-[367px] justify-center">
+            <img src="./img/light bulb.png" alt="light bulb">
+            <p class="text-center font-monalt font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur ac ultrices
+                odio. </p>
+        </div>
+    </div>
+    <div class="flex bg-Champagne flex-col  max-w-6xl mx-auto items-center max-h-[366px]">
+        <p class="font-monalt font-bold text-[95.95px] text-Vermillion pt-6 -mb-8">“</p>
+        <p class="font-monalt font-bold text-[36.65px]">One of the best daily podcasts that</p>
+        <p class="font-monalt font-bold text-[36.65px] mb-6">covers every topic on Spotify.</p>
+        <div class="flex flex-row max-w-[389px] max-h-[48] items-center mb-6">
+            <img src="./img/person avatar.png" alt="john smith avatar">
+            <p class="pl-[10px]">John Smith</p>
+            <img class="w-auto pl-[10px]" src="./img/spotify Vector.png" alt="spotify Vector">
+            <p class="pl-[10px]">Social Community Manager</p>
+        </div>
+        <img class="relative bottom-[400px] left-[550px]" src="./img/Star 4.png" alt="star 4">
+        <img class="relative bottom-[283px] right-[574px]" src="./img/Vector 4.png" alt="Vector 4">
+    </div>
 
     <script src="./app.js"></script>
 </body>
